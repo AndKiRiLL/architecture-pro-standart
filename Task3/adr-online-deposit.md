@@ -50,12 +50,12 @@ ADR: Концептуальная архитектура MVP открытия д
 
 6. **Kafka как асинхронная шина** — несмотря на несовместимость с текущей платформой интернет-банка, Kafka используется для связи новых микросервисов. Это закладывает перспективу на будущее и соответствует требованиям.
 
-**Диаграмма контекста (C4 Level 1):**
-Файл: [Task3/context-diagram.svg](https://github.com/AndKiRiLL/architecture-pro-standart/blob/dev/Task3/context-diagram.svg)
+**Диаграмма контекста:**
+Файл: `Task3/context-diagram.svg` [Перейти к диаграмме](https://github.com/AndKiRiLL/architecture-pro-standart/blob/dev/Task3/context-diagram.svg)
 - Показывает взаимодействие клиента с сайтом и интернет-банком, а также связи с системами банка: Deposit Request Service, Система кол-центра, АБС, СМС-шлюз.
 
-**Диаграмма контейнеров (C4 Level 2):**
-Файл: [Task3/container-diagram.svg](https://github.com/AndKiRiLL/architecture-pro-standart/blob/dev/Task3/container-diagram.svg)
+**Диаграмма контейнеров:**
+Файл: `Task3/container-diagram.svg` [Перейти к диаграмме](https://github.com/AndKiRiLL/architecture-pro-standart/blob/dev/Task3/container-diagram.svg)
 - Детализирует интернет-банк (монолит + новый микросервис Deposit Request Service) и АБС.
 - Показаны: API Gateway, микросервис ставок, Notification Service, Kafka, СМС-шлюз, система кол-центра, БД модуля ставок.
 
