@@ -44,10 +44,10 @@ ADR: Интеграция кол-центра и партнёрского кол
 4. **Формат файла — CSV** — простой, легко парсится любой системой, согласовывается с партнёром. Структура: код депозита, название, ставка, срок, мин. сумма, дата обновления.
 
 **Диаграмма контекста для кейса передачи ставок:**
-Файл: `Task4/context-rates.svg`
+Файл: `Task4/context-rates.svg` [Перейти к диаграмме](https://github.com/AndKiRiLL/architecture-pro-standart/blob/dev/Task4/context-rates.svg)
 
 **Диаграмма компонентов для кейса передачи ставок:**
-Файл: `Task4/component-rates.svg`
+Файл: `Task4/component-rates.svg` [Перейти к диаграмме](https://github.com/AndKiRiLL/architecture-pro-standart/blob/dev/Task4/component-rates.svg)
 
 На диаграммах показаны только системы и связи, имеющие отношение к передаче ставок: Rate Management Service, кол-центр банка, партнёрский кол-центр, SFTP-сервер, сотрудник бэк-офиса.
 
@@ -100,6 +100,6 @@ ADR: Интеграция кол-центра и партнёрского кол
 ---
 
 ## RoadMap
-Файл: `roadmap-bank-standart.svg`
+Файл: `roadmap-bank-standart.svg` [Перейти к схеме](https://github.com/AndKiRiLL/architecture-pro-standart/blob/dev/Task4/roadmap-bank-standart.svg)
 
 
