@@ -58,10 +58,10 @@ ADR: Архитектура подачи кредитной заявки онл�
 6. **Кредитный конвейер дорабатывается силами IT-отдела банка.** Camunda позволяет менять обработчики бизнес-процессов на Java. Добавляются два новых процесса: приоритетная обработка предодобренных заявок и обработка заявок с сайта.
 
 **Диаграмма контекста:**
-Файл: `Task5/context-credit.svg`
+Файл: `Task5/context-credit.svg` [Перейти к диаграмме](https://github.com/AndKiRiLL/architecture-pro-standart/blob/dev/Task5/context-credit.svg)
 
 **Диаграмма компонентов:**
-Файл: `Task5/component-credit.svg`
+Файл: `Task5/component-credit.svg` [Перейти к диаграмме](https://github.com/AndKiRiLL/architecture-pro-standart/blob/dev/Task5/component-credit.svg)
 
 ### Альтернативы
 
